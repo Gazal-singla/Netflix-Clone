@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    scroll-behavior: smooth;
+    scrollbar-width: 1;
+}
+.maindiv{
+ 
+    padding: 0rem 2rem;
+ 
+    
+}
+.backgroundimagecontainer{
+    background-image:url(./imagess/main\ uppar\ page.jpg) ;
+    filter: blur(16px);
+    height: 100vh;
+    position: relative;
+    opacity: 0.50;
+
+}
+.navdiv{
+    /* border: 2px solid green; */
+    height: 20vh;
+}
+.uppernavsection{
+    /* border: 2px solid pink; */
+    display: flex;
+    height: 50%;
+}
+.lowernavsection{
+    /* border: 2px solid red; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+   
+  
+}
+.uppernavleftsection{
+/* border: 2px solid red; */
+width: 50%;
+height: 100%;
+
+}
+.uppernavleftsection img{
+    height: 70px;
+    width: 148px;
+    padding-top: 3px;
+}
+.uppernavrightsection{
+/* border: 2px solid blue; */
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+.buttonlanguage{
+    display: flex;
+    padding: .5rem .8rem;
+    border-radius: 50px;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    margin-left: 200px;
+    margin-right:10px ;
+    background-color: rgba(0, 0, 0, 0.655);
+}
+.buttonlanguage p{
+    margin-left: 13px ;
+    
+}
+.navbarbuttoncontainer{
+    display: flex;
+  
+}
+.signin{
+    background-color: white;
+    color: black;
+  outline: none;
+   border: none;
+     padding: .5rem .8rem;
+    border-radius: 50px;
+    width: 90px;
+    text-transform: capitalize;
+}
+.list{
+    display: flex;
+   
+    box-shadow: 1px 1.5px 5px black;
+    width: 30%;
+    list-style: none;
+justify-content: space-evenly;
+border-radius: 50px;
+width: 600px;
+height: 50px;
+background-color: rgba(14, 13, 13, 0.51);
+
+}
+.lists{
+    color: white;
+   padding: 14px;
+   
+}
+.bannerdiv{
+    height: 75vh;
+
+    background-image: url(./imagess/main\ uppar\ page.jpg);
+    border-radius: 20px;
+    margin-top: 1rem;
+    background-size:100% 100% ;
+ position: relative;
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(transparent,rgba(0,0,0,.5),black);
+    border-radius: 20px;
+   
+}
+body{
+    background-color: black;
+}
+.contentcontainer{
+ position: absolute;
+   top: 0;
+    left:5.5%;
+    right: 5.5%;
+   
+}
+.pinkoverlay{
+    background-color: rgba(101, 12, 27, 0.403);
+    height: 100%;
+    width: 100%;
+}
+.bannercontainer{
+    
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+}
+.bannercontainer h2{
+    font-size: 3.5rem;
+   
+    width: 50%;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.bannercontainer h4{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+ font-weight: 500;
+ margin: 20px;
+}
+.bannercontainer h3{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+margin:5px;
+}
+.emailinputbutton{
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: 1px solid white;
+    outline: none;
+  
+      box-shadow: 1px 1.5px 5px black;
+    width: 70%;
+    list-style: none;
+justify-content: space-evenly;
+color: white;
+font-size: 1rem;
+font-weight: 500;
+background-color: rgba(255, 255, 255, 0.3);
+margin-right: 5px;
+}
+.inputcontainer{
+   
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.get{
+      background-color: red;
+      color: white;
+     border: none;
+      font-weight: 500;
+       padding: 1rem 2rem;
+    border-radius: 30px;
+    width: 40%;
+    font-size: 20px;
+    
+    
+}
+.carosaldiv{
+    /* border: 2px solid green; */
+    color: white;
+  
+
+}
+.carousalcardcontainer{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.corousalcard{
+    width: 12%;
+    /* border: 2px solid yellow; */
+    height: 40vh;  
+    position: relative;
+    
+}
+.carousalimagecontainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.carousalimagecontainer {
+    width: 100%;
+    height: 100%;
+}
+.carousalcontainer h2{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    width: 788px;
+    height: 30.4px;
+    margin-left: 110px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: 30px;
+
+}
+.carosalnumbercontainer span{
+line-height: 1;
+    display: inline-block;
+    height: 1em;
+    position: relative;
+    font-weight: 700;
+    color: rgb(1, 1, 1);
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3);
+font-size: 5rem;
+font-family:   Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.carosalnumbercontainer{
+    position: absolute;
+    left: -20%;
+}
+.plansection h2{
+      font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    width: 788px;
+    height: 30.4px;
+    margin-left: 110px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: white;
+    
+}
+.plancontainer{
+    color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.plancontainer{
+     height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+} 
+.plancard{
+    /* border: 2px solid red; */
+    height: 38vh;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 1rem 1rem 1rem;
+   border: 1px solid rgba(255, 255, 255, 0.411);
+}
+.plancard h2{
+    margin-left: 0px;
+    
+    font-size: 1.5rem;
+}
+.plancard h4{
+ font-family:   Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1.2rem;
+}
+.plancard p{
+    font-family:   Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1rem;
+}
+.plancard1{
+ background: linear-gradient(149deg,#1C4072 6.96%,#172B47 40.17%,#120c1f 73.39%);
+}
+
+.plancard2{
+ background: linear-gradient(149deg,#1D529D 6.96%,#233371 40.17%,#120c1f 73.39%);
+}
+
+.plancard3{
+ background: linear-gradient(149deg,#792A95 6.96%,#38216C 40.17%,#120C1f 73.39%);
+}
+.plancard4{
+ background: linear-gradient(149deg,#922556 6.96%,#391945 40.17%,#120c1f 73.39%);
+}
+.reasontojoin h2{
+      font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    width: 788px;
+    height: 30.4px;
+    margin-left: 110px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: 25px;
+    color: white;
+}
+.reasoncontainer{
+    color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.reasoncontainer{
+     height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+} 
+.reasoncard{
+    /* border: 2px solid red; */
+    height: 38vh;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 1rem 1rem 1rem;
+   border: 1px solid rgba(255, 255, 255, 0.411);
+}
+.reasoncard h2{
+    margin-left: 0px;
+    
+    font-size: 1.5rem;
+}
+.reasoncard h4{
+
+    font-size: 1.2rem;
+}
+.reasoncard p{
+   
+    font-size: 0.9rem;
+  font-family:   Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+.reasoncard{
+    background-color: rgb(43, 41, 41);
+}
+.reasonlowercontent{
+    margin-left: 170px;
+    margin-top: 40px;
+}
+.reasoncardupparcontent h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.faqsection h2{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    width: 788px;
+    height: 30.4px;
+    margin-left: 110px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: 25px;
+    color: white;
+}
+.faqcontainer{
+    color: white;
+    /* border: 2px solid green; */
+
+    height: 200px;
+    margin-left: 80px;
+    
+}
+.faqques{
+/* border: 2px solid red; */
+height: 100px;
+font-size: 20px;
+border-radius: 13px;
+  background-color: rgb(43, 41, 41);
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faqans{
+    /* border: 2px solid yellow; */
+    padding: 15px;
+  height: 100px;
+  font-size: 15px;
+  border-radius: 13px;
+    background-color: rgb(43, 41, 41);
+    align-items: center;
+}
+.gscontainer{
+    color: white;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-top: 25px;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-left: 240px;
+}
+.getstartedsection{
+    color: white;
+}
+.getstartedsection h3{
+    margin-top: 80px;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+    text-align: center;
+     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.gscontainer input{
+    width: 500px;
+      padding: 1rem 2rem;
+    border-radius: 30px;
+    border: 1px solid white;
+    outline: none;
+  
+      box-shadow: 1px 1.5px 5px black;
+    
+    list-style: none;
+justify-content: space-evenly;
+color: white;
+font-size: 1rem;
+font-weight: 500;
+background-color: rgba(255, 255, 255, 0.3);
+margin-right: 5px;
+}
+.gscontainer button{
+    width: 250x;
+    font-size: 15px;
+}
+.footercontainer{
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.ques{
+    display: flex;
+    margin-bottom: 100px;
+}
+.nor{
+    display: flex;
+    margin-bottom: 40px;
+}
+.net{
+    margin-bottom: 60px;
+}
+.buttonlanguage{
+    margin-left: 0px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+.infocards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+a{
+    color: #FFFFFFB3;
+    list-style: none;
+    
+}
+.nor a{
+    color: rgba(28, 28, 150, 0.827);
+}
